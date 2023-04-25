@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+mvn package
+
+echo
+echo "Datei kopieren:"
+sudo cp --verbose ~/git/WeiberleVertSysPortfolio/target/WeiberleVertSysPortfolio.war /var/lib/tomcat9/webapps/
