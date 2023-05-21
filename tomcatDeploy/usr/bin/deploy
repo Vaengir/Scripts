@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-mvn package
+mvn clean package
 
 echo
 echo "Datei kopieren:"
