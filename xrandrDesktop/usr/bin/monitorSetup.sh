@@ -5,6 +5,7 @@ NOCOLOR='\033[0m'
 
 if [[ $(/usr/bin/id -u) -ne 0 ]]; then
   printf "${RED}Error:${NOCOLOR} Script needs root to run" 1>&2
+  echo ""
   exit
 fi
 
