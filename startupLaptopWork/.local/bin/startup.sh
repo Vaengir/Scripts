@@ -17,4 +17,5 @@ setxkbmap eu
 # Allow Mousepad tapping to click
 xinput set-prop "$(xinput list --name-only | grep -i touch)" "libinput Tapping Enabled" 1
 # Update all repos
-g pull ~/git/
+g pull ~/personal/
+g pull ~/work/
