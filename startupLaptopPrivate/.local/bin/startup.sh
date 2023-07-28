@@ -15,5 +15,5 @@ picom &
 # Allow Mousepad tapping to click
 xinput set-prop "$(xinput list --name-only | grep -i touch)" "libinput Tapping Enabled" 1
 # Update all repos
-g fetch ~/personal/
-g fetch ~/work/
+# g fetch ~/personal/
+# g fetch ~/work/

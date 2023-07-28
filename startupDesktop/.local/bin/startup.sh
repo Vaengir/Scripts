@@ -15,5 +15,5 @@ xrandr --output DisplayPort-0 --off --output DisplayPort-1 --primary --mode 2560
 # Run Compositor
 picom &
 # Update all repos
-g fetch ~/personal/
-g fetch ~/work/
+# g fetch ~/personal/
+# g fetch ~/work/
