@@ -12,6 +12,8 @@ xset -dpms
 xset s noblank 
 # Run Compositor
 picom &
+# Run nm-applet
+nm-applet &
 # Allow Mousepad tapping to click
 xinput set-prop "$(xinput list --name-only | grep -i touch)" "libinput Tapping Enabled" 1
 # Update all repos
