@@ -27,7 +27,6 @@ ln -s ~/git/Misc/Linux/starship.toml ~/.config/starship.toml
 ## Nvim setup
 Download nvim-linux54.deb
 sudo apt install ./nvim-linux64.deb
-gh repo clone Weiberle17/nvim.conf
 ln -s ~/git/nvim.conf/nvim ~/.config/nvim
 sudo apt install gcc g++
 ## Node Npm setup
@@ -62,7 +61,6 @@ rm ~/.bashrc
 ln -s ~/git/Misc/Linux/.bashrc
 ln -s ~/git/Misc/Linux/.bash_aliases
 ## Awesome setup
-gh repo clone Weiberle17/AwesomeWM
 ln -s ~/git/AwesomeWM/awesome ~/.config/awesome
 # Default packages
 
