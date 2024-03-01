@@ -18,4 +18,4 @@ nm-applet &
 xinput set-prop "$(xinput list --name-only | grep -i touch)" "libinput Tapping Enabled" 1
 # Update all repos
 rigit fetch ~/personal/
-rigit fetch ~/work/
+rigit fetch ~/vaengir/
