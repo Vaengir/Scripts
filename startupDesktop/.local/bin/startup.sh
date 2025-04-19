@@ -14,6 +14,8 @@ xset s noblank
 xrandr --output DP-1 --off --output DP-3 --primary --mode 2560x1440 --rate 164.83 --pos 0x167 --rotate normal --output DP-2 --mode 1920x1080 --rate 164.92 --pos 2560x0 --rotate right --output HDMI-1 --off
 # Run Compositor
 picom &
+# Enable numlock
+numlockx on
 # Update all repos
 rigit fetch ~/personal/
 rigit fetch ~/vaengir/
