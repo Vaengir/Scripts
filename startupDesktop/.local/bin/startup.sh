@@ -16,6 +16,8 @@ xrandr --output DP-1 --off --output DP-3 --primary --mode 2560x1440 --rate 164.8
 picom &
 # Enable numlock
 numlockx on
+# Hide Cursor after 5 seconds
+unclutter --timeout 5 --hide-on-touch --start-hidden&
 # Update all repos
 rigit fetch ~/personal/
 rigit fetch ~/vaengir/
